@@ -8,13 +8,17 @@ import ThemeSettings from './layouts/ThemeSettings.vue';
 
 </script>
 
-<template>
+<!-- <template>
     <Header />
     <Sidebar />
     <MainContent />
     <ThemeSettings />
     <Footer />
+</template> -->
+
+<template>
+    <router-view />
 </template>
 
 
-<style></style>
+<style scoped></style>
